@@ -1,0 +1,472 @@
+@import '../fonts/stylesheet.css';
+@import '../media/media.css';
+/* 
+font-family: 'Montserrat-Light';
+font-family: 'Montserrat-Black';
+font-family: 'Montserrat-Bold';
+font-family: 'Montserrat-Thin';
+font-family: 'Montserrat-Bold';
+font-family: 'Montserrat-Regular'; */
+
+:root {
+    --f400: 'Montserrat-Regular';
+    --f100: 'Montserrat-Thin';
+    --f300: 'Montserrat-Light';
+    --f700: 'Montserrat-Bold';
+    --f900: 'Montserrat-Black';
+    --fR700: 'Montserrat-Bold';
+    --green: #68bf3b;
+    --light_green: #68cd1620;
+    --white: #fff;
+    --dark: #060503;
+    --grey_light: #a6a6a6;
+
+
+
+    --col-1: calc(100% / 12);
+    --col-2: calc(100% / 12 * 2);
+    --col-3: calc(100% / 12 * 3);
+    --col-4: calc(100% / 12 * 4);
+    --col-5: calc(100% / 12 * 5);
+    --col-6: calc(100% / 12 * 6);
+    --col-7: calc(100% / 12 * 7);
+    --col-8: calc(100% / 12 * 8);
+    --col-9: calc(100% / 12 * 9);
+    --col-10: calc(100% / 12 * 10);
+    --col-11: calc(100% / 12 * 11);
+    --col-12: 100%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat-Regular';
+    color: var(--grey_light);
+    user-select: none;
+    font-family: var(--f400);
+    scroll-behavior: smooth;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-1 {
+    width: var(--col-1);
+    padding: 0 15px;
+}
+
+.col-2 {
+    width: var(--col-2);
+    padding: 0 15px;
+}
+
+.col-3 {
+    width: var(--col-3);
+    padding: 0 15px;
+}
+
+.col-4 {
+    width: var(--col-4);
+    padding: 0 15px;
+}
+
+.col-5 {
+    width: var(--col-5);
+    padding: 0 15px;
+}
+
+.col-6 {
+    width: var(--col-6);
+    padding: 0 15px;
+}
+
+.col-7 {
+    width: var(--col-7);
+    padding: 0 15px;
+}
+
+.col-8 {
+    width: var(--col-8);
+    padding: 0 15px;
+}
+
+.col-9 {
+    width: var(--col-9);
+    padding: 0 15px;
+}
+
+.col-10 {
+    width: var(--col-10);
+    padding: 0 15px;
+}
+
+.col-11 {
+    width: var(--col-11);
+    padding: 0 15px;
+}
+
+.col-12 {
+    width: var(--col-12);
+    padding: 0 15px;
+}
+
+.col {
+    width: auto;
+    padding: 0 15px;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-grow-1 {
+    flex-grow: 1;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-wrap {
+    font-weight: wrap;
+}
+
+.mh-100 {
+    min-height: 100vh;
+}
+
+.ml-auto {
+    margin-left: auto;
+}
+
+.mr-auto {
+    margin-right: auto;
+}
+
+/* =============================== header ========================== */
+.header {
+    background: url(../img/bg.png) no-repeat center center /cover;
+    min-height: 100vh;
+    margin-bottom: 80px;
+
+}
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header__nav {
+
+}
+
+.logo {
+    color: var(--white);
+    font-size: 24px;
+    font-family: var(--f700);
+    text-transform: uppercase;
+    padding-top: 45px;
+}
+
+.number {
+    font-family: var(--f400);
+    color: var(--white);
+    font-size: 24px;
+
+}
+
+.call-us {
+    padding-top: 30px;
+}
+
+.number__link {
+    font-family: var(--f400);
+    color: var(--white);
+    font-size: 16px;
+    padding: 20px 25px;
+    background: var(--green);
+    border-radius: 100px;
+    margin-left: 50px;
+
+}
+.header__content{
+    
+}
+
+.header__par {
+    font-family: var(--f900);
+    color: var(--white);
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header__h1 {
+    font-family: var(--f900);
+    color: var(--white);
+    font-size: 72px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.header__price {
+    font-family: var(--f400);
+    color: var(--white);
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.full__menu {
+    font-family: var(--f400);
+    color: var(--white);
+    font-size: 18px;
+    padding: 20px 25px;
+    background: var(--green);
+    border-radius: 100px;
+    width: 200px;
+    text-align: center;
+
+
+}
+
+
+
+/* =============================== /header ========================== */
+/* =============================== main ========================== */
+.unique__technlogie_content{
+    margin-bottom: 65px;
+}
+.cards__content_title{
+    margin-bottom: 45px;
+    text-align: center;
+}
+.ut__title{
+    color: var(--green);
+    font-size: 36px;
+    font-family: var(--f700);
+    text-transform: uppercase;
+    padding-bottom: 60px;
+}  
+.ut__description{
+    color: var(--grey_light);
+    font-size: 18px;
+    font-family: var(--f400);
+    max-width: 720px;
+    line-height: 38px;
+}
+.signa__p{
+    color: var(--grey_light);
+    font-size: 24px;
+    font-family: var(--f700);
+}
+.signa__p{
+    margin-right: 40px;
+}
+.cards__content_title{
+    color: var(--light_green);
+    font-size: 36px;
+    font-family: var(--f700);
+    text-transform: uppercase;
+}
+.card__img{
+    margin-right: 60px;
+}
+.pizza__img{
+    position: absolute;
+}
+.pizza__img:hover ~ .price__card{
+    opacity: 1;
+    
+
+}
+.price__card{
+    font-family: var(--f700);
+    text-transform: uppercase;
+    font-size: 18px; 
+    position: absolute;
+    color: var(--white);
+    background: var(--green);
+    padding: 20px 8px;
+    border-radius: 100px;
+    width: max-content;
+    height: max-content;
+    margin-top: 30px;
+    margin-left: 30px;
+    opacity: 0;
+    transition: 1s;
+    
+}
+.cards-content{
+    margin-bottom: 100px;
+}
+.card{
+    margin-bottom: 100px;
+}
+.card__descr{
+    max-width: 315px;
+    max-height: 134px;
+    line-height: 30px;
+    font-size: 14px;
+    font-family: var(--f400);
+    margin-left: 15px;
+}
+.card__title{
+    font-family: var(--f700);
+    text-transform: uppercase;
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-left: 15px;
+}
+.price{
+    font-family: var(--f700);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    
+}
+.price__span{
+    font-family: var(--f100);
+    font-size: 18px;
+}
+.buy__button{
+    font-family: var(--f400);
+    color: var(--white);
+    font-size: 18px;
+    padding: 20px 25px;
+    background: var(--green);
+    border-radius: 100px;
+    width: 210px;
+    text-align: center;
+
+}
+.section__reviews{
+    margin-bottom: 100px;
+}
+.reviews-content{
+    justify-content: center;
+    justify-content: space-around;
+}
+.reviews__img_1{
+    background: url(../img/girl1.jpg);
+    height: 320px;
+    width: 320px;
+    background-position: top;
+    background-size: cover;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+.reviews__img_2{
+    background: url(../img/girl2.jpg);
+    height: 320px;
+    width: 320px;
+    background-position: top;
+    background-size: cover;
+    border-radius: 100%;
+    margin-bottom: 20px;
+
+}
+.reviews__img_3{
+    background: url(../img/girl3.jpg);
+    height: 320px;
+    width: 320px;
+    background-position: top;
+    background-size: cover;
+    border-radius: 100%;
+    margin-bottom: 20px;
+
+}
+.reviews__title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--f700);
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.reviews__description{
+    max-width: 300px;
+    text-align: center;
+    font-size: 14px;
+}
+/* .div :nth-child(){
+    background: url(../img/girl2.png);
+} */
+/* =============================== /main ========================== */
+/* ---------------------------------footer--------------------------------------------------------- */
+.footer{
+    background: #000;
+    min-height: 200px;
+}
+
+.first__footer_line{
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.footer__number {
+    font-family: var(--f400);
+    color: var(--white);
+    font-size: 24px;
+
+}
+
+.footer__number_link {
+    font-family: var(--f400);
+    color: var(--white);
+    font-size: 16px;
+    padding: 20px 25px;
+    background: var(--green);
+    border-radius: 100px;
+    margin-left: 50px;
+}
+
+.footer__descr{
+    font-family: var(--f100);
+    text-align: center;
+    font-size: 16px;
+}

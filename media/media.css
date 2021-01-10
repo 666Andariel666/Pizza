@@ -1,0 +1,631 @@
+@media (max-width: 1140px){
+    .container{
+        max-width: 950px; 
+    }
+    .number{
+        font-size: 19px;
+    }
+    .ut__img img{
+        width: 250px;
+        margin-right: 20px;
+    }
+    .signa__img{
+        width: 100px;
+    }
+    .number__link{
+        margin-left: 30px;
+        padding: 19px 19px;
+        font-size: 15px;
+    }
+    .header__par{
+        font-size: 18px;
+    }
+    .header__h1{
+        font-size: 60px;
+    }
+    .header__price{
+        font-size: 16px;
+    }
+    .ut__title{
+        font-size:25px;
+        padding-bottom: 20px;
+    }
+    .ut__description{
+        max-width: 500px;
+        text-align: justify;
+        line-height: 29px;
+    }
+    .ut__text_block{
+       justify-content: flex-start;
+    }
+    .section__reviews{
+        margin-top: 50px;
+        justify-content: space-between;
+
+    }
+    .reviews__img_1{
+        width: 250px;
+        height: 250px;
+    }
+    .review_card{
+     margin-left: 30px; 
+    }
+    .reviews__img_2{
+        width: 250px;
+        height: 250px;
+
+    }
+    .reviews__img_3{
+        width: 250px;
+        height: 250px;
+    }
+    .reviews__title{
+        text-align: center;
+    }
+    .reviews__description{
+        font-size: 13px;
+        margin-right: 15px;
+        text-align: center;
+        
+    }
+    .pizza__img{
+        width: 250px;
+
+    }
+    .card{
+        margin-bottom: 20px;
+    }
+    .card__img{
+        margin: 0;
+    }
+    .cards__content_title{
+        margin-bottom: 10px;
+        color: rgba(0, 128, 0, 0.37);
+        text-shadow: rgba(17, 155, 40, 0.527) 1px 1px;
+        font-size: 30px;
+    }
+    .price__card{
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 16px 8px;
+        font-size: 14px;
+    }
+    .card__title{
+        font-size: 25px;
+        width: max-content;
+
+    }
+    .card__descr{
+        line-height: 24px;
+    }
+    .price{
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    .price__span{
+        font-size: 16px;
+    }
+    .buy__button{
+        font-size: 14px;
+        padding: 14px 10px
+    }
+}
+
+@media (max-width: 950px){
+    .container {
+        max-width: 720px;
+    }
+.header__par{
+    font-size: 16px
+} 
+.header__h1{
+    font-size: 50px;
+}
+.ut__img img{
+    width: 220px;
+    margin-right: 35px;
+}
+.signa__p{
+    font-size: 20px;
+}
+.ut__title{
+    font-size: 22px;
+}
+.ut__description{
+    font-size: 16px;
+    text-align: left;
+    line-height: 22px;
+}
+   .pizza__img{
+       width: 210px;
+       
+   }
+   .card__img{
+       margin-bottom: 160px;
+   }
+   .card__title{
+       padding: 0;
+       margin-bottom: 2px;
+       font-size: 18px;
+   }
+   .card__descr{
+       font-size: 14px;
+    line-height: 17px;
+}
+.price{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.price__span{
+    font-size: 14px;
+}
+.buy__button{
+    font-size: 14px;
+    padding: 12px 8px;
+    width: 150px;
+}
+.cards__content_title{
+    font-size: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.price__card{
+    margin-top: 15px;
+    margin-left: 15px;
+    padding: 13px 5px;
+    font-size: 14px;
+}
+    .footer__call-us{
+        margin-top: 20px;
+    flex-direction: column;
+       
+    }
+    .footer__number{
+        margin-bottom: 10px;
+    }
+    .footer__number{
+        font-size: 20px;
+    }
+    .footer__number_link{
+        margin: 0;
+        padding: 15px 14px;
+    }
+    .reviews__img_1{
+        width: 220px;
+        height: 220px;
+    }
+    .review_card{
+     margin-left: 30px; 
+    }
+    .reviews__img_2{
+        width: 220px;
+        height: 220px;
+
+    }
+    .reviews__img_3{
+        width: 220px;
+        height: 220px;
+    }
+}
+@media (max-width:720px){
+    .container{
+        max-width: 640px;
+    }
+    .call-us{
+        margin-top: 9px;
+    }
+    .logo{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .header__content{
+        margin-top: 50px;
+        align-items: center;
+    }
+    .number{
+        font-size: 15px;
+    }
+    .number__link{
+        margin-left: 30px;
+        padding: 12px 10px;
+        font-size: 12px;
+        width: max-content;
+        margin-left: 10px;
+    }
+    .full__menu{
+        padding: 16px 0px;
+        font-size: 16px;
+    }
+    .header__par{
+        font-size: 13px
+    } 
+    .header__h1{
+        font-size: 40px;
+    }
+    .card__img{
+        margin-right: 30px;
+    }
+    .pizza__img{
+        width: 200px;
+
+    }
+    .reviews__img_1{
+        width: 190px;
+        height: 190px;
+    }
+    .review_card{
+     margin-left: 30px; 
+    }
+    .reviews__img_2{
+        width: 190px;
+        height: 190px;
+
+    }
+    .reviews__img_3{
+        width: 190px;
+        height: 190px;
+    }
+    .card__price{
+        margin-right: 0px;
+    }
+    .card__title{
+        font-size: 15px;
+    }
+    .card__descr{
+        font-size: 12px;
+    }
+    .price{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .price__span{
+        font-size: 12px;
+    }
+    .buy__button{
+        font-size: 12px;
+        padding: 12px 8px
+    }
+    .footer__number{
+        font-size: 16px;
+    }
+    .footer__number_link{
+        width: max-content;
+        font-size: 14px;   
+        letter-spacing: 0.4px;
+        
+        padding: 12px 10px;
+    }
+    .footer__descr{
+        font-size: 16px;
+    }
+}
+@media (max-width:640px){
+    .container{
+        max-width: 480px;
+    }
+    .header{
+        margin-bottom: 50px;
+        min-height: 50vh;
+    }
+    .header__content{
+        margin-top: 70px;
+
+    }
+    .card__img{
+        margin-right: 30px;
+        
+    }
+   
+    .section__reviews{
+        margin-bottom: 20px;
+    }
+    .reviews__img_1{
+        width: 350px;
+        height: 350px;
+        margin: 0;
+
+    }
+    .review_card{
+     margin-left: 35px; 
+    }
+    .reviews__img_2{
+        width: 350px;
+        height: 350px;
+        margin: 0;
+
+    }
+    .reviews__img_3{
+        width: 350px;
+        height: 350px;
+        margin: 0;
+    }
+    .reviews__title{
+        padding-top: 10px;
+        font-size: 22px;
+    }
+    .reviews__description{
+        margin-top: 0;
+        margin-left: 0;
+        margin-bottom: 20px;
+        font-size: 20px;
+        max-width: 500px;
+
+    }
+    .cards-content{
+        margin: 0;
+        padding: 0;
+    }
+    .card__price{
+        margin-top: 50px;
+    }
+    .card{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+    .pizza__img{
+        width: 320px;
+        height: 250px;
+
+
+    }
+    .card__img{
+        
+        margin-right: 400px;
+        margin-bottom: 350px;
+    }
+    .product__info{
+        width: 100%;
+    }
+    .card__title{
+        font-size: 32px;
+        margin: 0 40px;
+        margin-bottom: 5px;
+        
+    }
+    .card__descr{
+        min-width: 90%;
+        font-size: 18px;
+        text-align: justify;
+        line-height: 20px;
+    }
+    .ut__title{
+        font-size: 16px;
+        padding-bottom: 10px;
+    }
+    .ut__description{
+        font-size: 14px;
+    }
+    .signa__p{
+        font-size: 18px;
+    }
+    .ut__img img{
+        width: 190px;
+        margin-right: 13px;
+        margin-top: 25px;
+        align-items: center;
+    }
+    .cards__content_title{
+        /* margin-left: 170px; */
+        display: flex;
+        justify-content: center;
+    }
+    .card__price{
+        flex-direction: row;
+        width: 100%;
+        margin: 20px 10px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .price{
+        font-size: 20px;
+
+    }
+    .price__span{
+        font-size: 18px;
+    }
+    .buy__button{
+        font-size: 13px;
+        padding: 18px 18px
+    }
+    .price__card{
+        margin: 0;
+        width: 0;
+        height: 0;
+        font-size: 30px;
+        border-radius: 0;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+        color: bisque;
+        background: rgba(0, 255, 0, 0.404);
+    }
+    .pizza__img{
+        position: absolute;
+        width: 480px;
+        height: 350px;
+    }
+    .pizza__img:hover ~ .price__card{
+        justify-content: center;
+        align-items: center;
+        width: 480px;
+        height: 350px;
+        opacity: 1;
+    }
+    .reviews-content{
+        flex-direction: column;
+    }
+
+}
+@media (max-width: 480px){
+    .container{
+        max-width: 320px;
+    }
+    .header{
+        margin-bottom: 10px;
+        min-height: 50vh;
+
+    }
+    .logo{
+        font-size: 20px;
+    }
+    .call-us{
+        flex-direction: column;
+        margin-top: 0;
+       }
+    .number{
+        
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    .number__link{
+        font-size: 10px;
+    }
+    .header__par{
+        font-size: 13px;
+    }
+    .header__h1{
+        font-size: 34px;
+    }
+    .full__menu{
+        font-size: 14px;
+        padding: 15px 10px;
+    }
+    .unique__technlogie_content{
+        margin-bottom: 20px;
+    }
+    .ut__img{
+        width: 230px;
+
+    }
+    .ut__text_block{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        margin-left: 10px;
+    }
+    .ut__title{
+        font-size: 16px;
+    }
+    .ut__description{
+        text-align: left;
+    }
+    .signa__p{
+        font-size: 14px;
+
+    }
+    .signa__img{
+        width: 80px;
+    }
+    .card{
+        flex-direction: column;
+        margin-bottom: 20px;
+        /* margin-top: 500px; */
+
+    }
+    .cards__content_title{
+        margin-left: 50px;
+    }
+    .card__title{
+        font-size: 20px;
+        margin-left: 0;
+        margin-right: 0;
+        text-align: center;
+        width: 260px;
+        padding: 0;
+        margin-top: 270px;
+        /* width: max-content; */
+    }
+    .cards__content_title{
+        display: flex;
+        justify-content: center;
+
+    }
+    .card__img{
+        margin-bottom: 0;
+        margin-right: 0;
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        width: 320px;
+    }
+    .product__info{
+        justify-content: center;
+    }
+    .card__descr{
+        margin-left: 0;
+        font-size: 14px;
+    }
+    .pizza__img{
+        width: 320px;
+        height: 250px;
+    }
+    .reviews__title{
+        font-size: 16px;
+    }
+    .reviews__img_1{
+        width: 200px;
+        height: 200px;
+        margin: 0;
+
+    }
+    .review_card{
+     margin-left: 30px; 
+    }
+    .price__card{
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+        opacity: 0;
+        display: flex;
+        align-items: center;
+        padding-left: 40px;
+        font-size: 40px;
+        color: bisque;
+        width: 320px;
+        background: rgba(0, 255, 0, 0.404);
+    }
+    .pizza__img:hover ~ .price__card{
+        width: 320px;
+        height: 250px;
+        opacity: 1;
+    }
+    .reviews__img_2{
+        width:200px;
+        height: 200px;
+        margin: 0;
+
+    }
+    .reviews__img_3{
+        width: 200px;
+        height: 200px;
+        margin: 0;
+    }
+    .reviews__description{
+        margin-right: 0;
+        font-size: 15px;
+        text-align: justify;
+    }
+    .first__footer_line{
+        flex-direction: row;
+        width: 320px;
+    }
+    .footer__number{
+        font-size: 14px;
+    }
+    .footer__number_link{
+        padding: 10px 3px;
+        letter-spacing: normal;
+    }
+    .footer__descr{
+        font-size: 12px;
+    }
+}
+@media (max-width:320px){
+    .container{
+        
+    }
+}
